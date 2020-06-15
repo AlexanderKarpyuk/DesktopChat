@@ -9,7 +9,6 @@ public class ClientGuiController extends Client {
         protected void processIncomingMessage(String message) {
             model.setNewMessage(message);
             view.refreshMessages();
-            //super.processIncomingMessage(message);
         }
 
         @Override
